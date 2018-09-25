@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18E33181207C64E800970E47 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E33180207C64E800970E47 /* AppDelegate.m */; };
+		18E33184207C64E800970E47 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E33183207C64E800970E47 /* ViewController.m */; };
+		18E33187207C64E900970E47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E33185207C64E900970E47 /* Main.storyboard */; };
+		18E33189207C64E900970E47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E33188207C64E900970E47 /* Assets.xcassets */; };
+		18E3318C207C64E900970E47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E3318A207C64E900970E47 /* LaunchScreen.storyboard */; };
+		18E3318F207C64E900970E47 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E3318E207C64E900970E47 /* main.m */; };
+		18E33199207C64E900970E47 /* LevitationButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E33198207C64E900970E47 /* LevitationButtonTests.m */; };
+		18E331A4207C64E900970E47 /* LevitationButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E331A3207C64E900970E47 /* LevitationButtonUITests.m */; };
+		18E331B5207C665D00970E47 /* LevitationButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E331B4207C665D00970E47 /* LevitationButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18E33195207C64E900970E47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18E33174207C64E800970E47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18E3317B207C64E800970E47;
+			remoteInfo = LevitationButton;
+		};
+		18E331A0207C64E900970E47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18E33174207C64E800970E47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18E3317B207C64E800970E47;
+			remoteInfo = LevitationButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18E3317C207C64E800970E47 /* LevitationButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LevitationButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E3317F207C64E800970E47 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18E33180207C64E800970E47 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18E33182207C64E800970E47 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18E33183207C64E800970E47 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18E33186207C64E900970E47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18E33188207C64E900970E47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18E3318B207C64E900970E47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18E3318D207C64E900970E47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18E3318E207C64E900970E47 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18E33194207C64E900970E47 /* LevitationButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LevitationButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E33198207C64E900970E47 /* LevitationButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LevitationButtonTests.m; sourceTree = "<group>"; };
+		18E3319A207C64E900970E47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18E3319F207C64E900970E47 /* LevitationButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LevitationButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E331A3207C64E900970E47 /* LevitationButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LevitationButtonUITests.m; sourceTree = "<group>"; };
+		18E331A5207C64E900970E47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18E331B3207C665D00970E47 /* LevitationButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LevitationButton.h; sourceTree = "<group>"; };
+		18E331B4207C665D00970E47 /* LevitationButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LevitationButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18E33179207C64E800970E47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E33191207C64E900970E47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E3319C207C64E900970E47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18E33173207C64E800970E47 = {
+			isa = PBXGroup;
+			children = (
+				18E3317E207C64E800970E47 /* LevitationButton */,
+				18E33197207C64E900970E47 /* LevitationButtonTests */,
+				18E331A2207C64E900970E47 /* LevitationButtonUITests */,
+				18E3317D207C64E800970E47 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18E3317D207C64E800970E47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18E3317C207C64E800970E47 /* LevitationButton.app */,
+				18E33194207C64E900970E47 /* LevitationButtonTests.xctest */,
+				18E3319F207C64E900970E47 /* LevitationButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18E3317E207C64E800970E47 /* LevitationButton */ = {
+			isa = PBXGroup;
+			children = (
+				18E331B1207C65DF00970E47 /* Demo */,
+				18E3317F207C64E800970E47 /* AppDelegate.h */,
+				18E33180207C64E800970E47 /* AppDelegate.m */,
+				18E33182207C64E800970E47 /* ViewController.h */,
+				18E33183207C64E800970E47 /* ViewController.m */,
+				18E33185207C64E900970E47 /* Main.storyboard */,
+				18E33188207C64E900970E47 /* Assets.xcassets */,
+				18E3318A207C64E900970E47 /* LaunchScreen.storyboard */,
+				18E3318D207C64E900970E47 /* Info.plist */,
+				18E3318E207C64E900970E47 /* main.m */,
+			);
+			path = LevitationButton;
+			sourceTree = "<group>";
+		};
+		18E33197207C64E900970E47 /* LevitationButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				18E33198207C64E900970E47 /* LevitationButtonTests.m */,
+				18E3319A207C64E900970E47 /* Info.plist */,
+			);
+			path = LevitationButtonTests;
+			sourceTree = "<group>";
+		};
+		18E331A2207C64E900970E47 /* LevitationButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18E331A3207C64E900970E47 /* LevitationButtonUITests.m */,
+				18E331A5207C64E900970E47 /* Info.plist */,
+			);
+			path = LevitationButtonUITests;
+			sourceTree = "<group>";
+		};
+		18E331B1207C65DF00970E47 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				18E331B3207C665D00970E47 /* LevitationButton.h */,
+				18E331B4207C665D00970E47 /* LevitationButton.m */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18E3317B207C64E800970E47 /* LevitationButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18E331A8207C64E900970E47 /* Build configuration list for PBXNativeTarget "LevitationButton" */;
+			buildPhases = (
+				18E33178207C64E800970E47 /* Sources */,
+				18E33179207C64E800970E47 /* Frameworks */,
+				18E3317A207C64E800970E47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LevitationButton;
+			productName = LevitationButton;
+			productReference = 18E3317C207C64E800970E47 /* LevitationButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18E33193207C64E900970E47 /* LevitationButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18E331AB207C64E900970E47 /* Build configuration list for PBXNativeTarget "LevitationButtonTests" */;
+			buildPhases = (
+				18E33190207C64E900970E47 /* Sources */,
+				18E33191207C64E900970E47 /* Frameworks */,
+				18E33192207C64E900970E47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18E33196207C64E900970E47 /* PBXTargetDependency */,
+			);
+			name = LevitationButtonTests;
+			productName = LevitationButtonTests;
+			productReference = 18E33194207C64E900970E47 /* LevitationButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18E3319E207C64E900970E47 /* LevitationButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18E331AE207C64E900970E47 /* Build configuration list for PBXNativeTarget "LevitationButtonUITests" */;
+			buildPhases = (
+				18E3319B207C64E900970E47 /* Sources */,
+				18E3319C207C64E900970E47 /* Frameworks */,
+				18E3319D207C64E900970E47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18E331A1207C64E900970E47 /* PBXTargetDependency */,
+			);
+			name = LevitationButtonUITests;
+			productName = LevitationButtonUITests;
+			productReference = 18E3319F207C64E900970E47 /* LevitationButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18E33174207C64E800970E47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = zjbojin;
+				TargetAttributes = {
+					18E3317B207C64E800970E47 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					18E33193207C64E900970E47 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18E3317B207C64E800970E47;
+					};
+					18E3319E207C64E900970E47 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18E3317B207C64E800970E47;
+					};
+				};
+			};
+			buildConfigurationList = 18E33177207C64E800970E47 /* Build configuration list for PBXProject "LevitationButton" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18E33173207C64E800970E47;
+			productRefGroup = 18E3317D207C64E800970E47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18E3317B207C64E800970E47 /* LevitationButton */,
+				18E33193207C64E900970E47 /* LevitationButtonTests */,
+				18E3319E207C64E900970E47 /* LevitationButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18E3317A207C64E800970E47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E3318C207C64E900970E47 /* LaunchScreen.storyboard in Resources */,
+				18E33189207C64E900970E47 /* Assets.xcassets in Resources */,
+				18E33187207C64E900970E47 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E33192207C64E900970E47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E3319D207C64E900970E47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18E33178207C64E800970E47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E331B5207C665D00970E47 /* LevitationButton.m in Sources */,
+				18E33184207C64E800970E47 /* ViewController.m in Sources */,
+				18E3318F207C64E900970E47 /* main.m in Sources */,
+				18E33181207C64E800970E47 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E33190207C64E900970E47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E33199207C64E900970E47 /* LevitationButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E3319B207C64E900970E47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E331A4207C64E900970E47 /* LevitationButtonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18E33196207C64E900970E47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18E3317B207C64E800970E47 /* LevitationButton */;
+			targetProxy = 18E33195207C64E900970E47 /* PBXContainerItemProxy */;
+		};
+		18E331A1207C64E900970E47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18E3317B207C64E800970E47 /* LevitationButton */;
+			targetProxy = 18E331A0207C64E900970E47 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18E33185207C64E900970E47 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18E33186207C64E900970E47 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18E3318A207C64E900970E47 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18E3318B207C64E900970E47 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18E331A6207C64E900970E47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18E331A7207C64E900970E47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18E331A9207C64E900970E47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V4R3BFY32R;
+				INFOPLIST_FILE = LevitationButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zjbojin.LevitationButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18E331AA207C64E900970E47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V4R3BFY32R;
+				INFOPLIST_FILE = LevitationButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zjbojin.LevitationButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18E331AC207C64E900970E47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LevitationButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zjbojin.LevitationButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LevitationButton.app/LevitationButton";
+			};
+			name = Debug;
+		};
+		18E331AD207C64E900970E47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LevitationButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zjbojin.LevitationButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LevitationButton.app/LevitationButton";
+			};
+			name = Release;
+		};
+		18E331AF207C64E900970E47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LevitationButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zjbojin.LevitationButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LevitationButton;
+			};
+			name = Debug;
+		};
+		18E331B0207C64E900970E47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LevitationButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zjbojin.LevitationButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LevitationButton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18E33177207C64E800970E47 /* Build configuration list for PBXProject "LevitationButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E331A6207C64E900970E47 /* Debug */,
+				18E331A7207C64E900970E47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18E331A8207C64E900970E47 /* Build configuration list for PBXNativeTarget "LevitationButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E331A9207C64E900970E47 /* Debug */,
+				18E331AA207C64E900970E47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18E331AB207C64E900970E47 /* Build configuration list for PBXNativeTarget "LevitationButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E331AC207C64E900970E47 /* Debug */,
+				18E331AD207C64E900970E47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18E331AE207C64E900970E47 /* Build configuration list for PBXNativeTarget "LevitationButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E331AF207C64E900970E47 /* Debug */,
+				18E331B0207C64E900970E47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18E33174207C64E800970E47 /* Project object */;
+}
